@@ -1,0 +1,8 @@
+.back-style{
+    background-image: url(../../../images/bg-chair.png);
+    background-size: color;
+    background-repeat: no-repeat;
+    height:550px;
+    opacity: 5;
+    z-index: 1;
+}
