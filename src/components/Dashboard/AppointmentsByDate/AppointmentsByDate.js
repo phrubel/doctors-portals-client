@@ -16,7 +16,7 @@ const AppointmentsByDate = ({appointments}) => {
                 <AppointmentsList appointments={appointments}></AppointmentsList>
                 :
                 <div className='p-5'>
-                        <h3 className='text-center text-secondary'>No,Appointments in this Day,keep Rest...!!!</h3>
+                        <h5 className='text-center text-secondary'>No,Appointments in this Day,keep Rest...!!!</h5>
                 </div>
             }
         </div>
