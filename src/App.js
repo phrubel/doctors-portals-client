@@ -13,6 +13,7 @@ import { createContext, useState } from 'react';
 import Login from './components/Login/Login/Login';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import AllPatients from './components/AllPatients/AllPatients/AllPatients';
+import AddDoctor from './components/Dashboard/AddDoctor/AddDoctor';
 
 export const UserContext = createContext()
 
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path='/dashboard/allPatients'>
             <AllPatients></AllPatients>
+          </Route>
+          <Route path='/addDoctor'>
+           <AddDoctor></AddDoctor>
           </Route>
         </Switch>
       </Router>
